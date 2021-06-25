@@ -6,8 +6,8 @@
         <shape>
             <gradient
                 android:angle="0"
-                android:startColor="@color/cardview_dark_background"
-                android:endColor="@color/cardview_dark_background"/>
+                android:startColor="#ffffff"
+                android:endColor="#ffffff"/>
 
             <corners
                 android:radius="20dp"/>

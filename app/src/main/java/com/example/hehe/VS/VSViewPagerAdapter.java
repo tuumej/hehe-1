@@ -49,19 +49,19 @@ public class VSViewPagerAdapter extends FragmentStatePagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position){
             case  0:
-                return "Tab 1";
+                return "밥";
 
             case  1:
-                return "Tab 2";
+                return "커피";
 
             case  2:
-                return "Tab 3";
+                return "취미";
 
             case  3:
-                return "Tab 4";
+                return "쇼핑";
 
             default:
-                return "Tab 1";
+                return "밥";
         }
     }
 }

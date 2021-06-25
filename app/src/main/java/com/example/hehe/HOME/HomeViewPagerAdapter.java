@@ -45,13 +45,13 @@ public class HomeViewPagerAdapter extends FragmentStatePagerAdapter {
 
         switch (position){
             case  0:
-                return "tab 1";
+                return "통계";
 
             case  1:
-                return "tab 2";
+                return "상세 내역";
 
             default:
-                return "tab 1";
+                return "밥";
         }
     }
 }

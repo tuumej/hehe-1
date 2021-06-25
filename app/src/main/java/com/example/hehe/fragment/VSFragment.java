@@ -1,5 +1,6 @@
 package com.example.hehe.fragment;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -39,6 +40,9 @@ public class VSFragment extends Fragment {
 
         VSViewPagerAdapter adapter = new VSViewPagerAdapter(getChildFragmentManager(), FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         viewPager.setAdapter(adapter);
+
+        tabLayout.setTabTextColors(Color.rgb(186,186,186), Color.rgb(255,255,255)); // 탭 선택시 텍스트 컬러 변경
+        tabLayout.setSelectedTabIndicatorColor(Color.rgb(0,0,0)); // 탭 선택시 밑줄 색 변경
 
         tabLayout.setupWithViewPager(viewPager);
 
