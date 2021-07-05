@@ -33,7 +33,7 @@
         android:gravity="center"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/id_set_btn"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
@@ -52,10 +52,10 @@
         android:textStyle="normal" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/add_bf_btn"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_below="@+id/button"
+        android:layout_below="@+id/id_set_btn"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="30.8dp"
@@ -71,10 +71,10 @@
         android:textStyle="normal" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/bell_btn"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/add_bf_btn"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="30.8dp"
@@ -90,7 +90,7 @@
         android:textStyle="normal" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/id_out_btn"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_below="@+id/button4"
@@ -112,7 +112,7 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_below="@+id/button3"
+        android:layout_below="@+id/bell_btn"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="30.8dp"
