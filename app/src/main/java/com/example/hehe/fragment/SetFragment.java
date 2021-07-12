@@ -25,4 +25,7 @@ public class SetFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_set, container, false);
     }
-}
+
+
+
+    }
