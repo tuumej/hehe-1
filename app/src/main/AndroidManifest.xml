@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hehe">
-        <activity android:name=".SettingPage.LogoutActivity"></activity>
+        <activity android:name=".SettingPage.CheckPasswdActivity"></activity>
+        <activity android:name=".SettingPage.ChangePasswdActivity" />
+        <activity android:name=".SettingPage.LogoutActivity" />
         <activity android:name=".SettingPage.BellActivity" />
         <activity android:name=".SettingPage.AddBFActivity" />
         <activity android:name=".SettingPage.SetIdActivity" />

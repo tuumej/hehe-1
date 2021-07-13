@@ -9,22 +9,24 @@ import android.widget.Button;
 
 import com.example.hehe.R;
 
-public class SetIdActivity extends AppCompatActivity {
+public class CheckPasswdActivity extends AppCompatActivity {
 
-    Button change_btn;
+    Button btn_check;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_set_id);
+        setContentView(R.layout.activity_check_passwd);
 
-        change_btn = findViewById(R.id.change_id_btn);
-        change_btn.setOnClickListener(new View.OnClickListener() {
+        btn_check = findViewById(R.id.button3);
+        btn_check.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),CheckPasswdActivity.class);
+                Intent intent = new Intent(getApplicationContext(),ChangePasswdActivity.class);
                 startActivity(intent);
             }
         });
+
     }
 }
