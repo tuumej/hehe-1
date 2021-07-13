@@ -10,7 +10,7 @@ import android.widget.Button;
 import androidx.fragment.app.Fragment;
 
 import com.example.hehe.R;
-import com.example.hehe.SetIdActivity;
+import com.example.hehe.SettingPage.SetIdActivity;
 
 
 public class SetFragment extends Fragment {
